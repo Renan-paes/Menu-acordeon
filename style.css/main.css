@@ -25,7 +25,7 @@ body {
   overflow: hidden;
 }
 .menu .item:target .smenu {
-  max-height: 8em;
+  max-height: 10em;
   transition: 0.5s;
 }
 .menu .btn {
@@ -70,7 +70,7 @@ body {
   height: 100%;
   left: 0;
   top: 0;
-  transition: 0.3 ease;
+  transition: 0.3s;
   opacity: 0;
 }
 .smenu a:hover:before {
