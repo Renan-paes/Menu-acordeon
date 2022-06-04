@@ -34,7 +34,7 @@ body {
 .menu .item:target .smenu {
   max-height: 10em;
   -webkit-transition: 0.5s;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .menu .btn {
@@ -53,7 +53,7 @@ body {
   background: #107fb3;
   left: 20px;
   bottom: -7px;
-  rotate: 45deg;
+  transform: rotate(45deg);
 }
 
 .menu .btn i {
@@ -94,3 +94,26 @@ body {
   opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */
+
+    
+
+    #triangle-topleft {
+      width: 0;
+      height: 0;
+      border-top: 100px solid #107fb3;
+      border-right: 100px solid transparent;
+    }
+    #triangle-topleft p{
+      position: absolute;
+      transform: rotate(-45deg);
+      top: 30px;
+      left: 0px;
+    
+    }
+    #triangle-topleft  a{
+      color: #fff;
+    }
+    #triangle-topleft  a:hover{
+      text-shadow: 2px 2px 2px rgb(26, 25, 25);
+      transition: 0.5s;
+    }
