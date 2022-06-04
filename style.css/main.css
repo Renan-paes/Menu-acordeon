@@ -20,22 +20,22 @@ body {
   border-radius: 8px;
   overflow: hidden;
 }
-.middle .menu .item {
+.menu .item {
   border-top: 1px solid #1c85b6;
   overflow: hidden;
 }
-.middle .menu .item:target .smenu {
+.menu .item:target .smenu {
   max-height: 8em;
   transition: 0.5s;
 }
-.middle .menu .btn {
+.menu .btn {
   display: block;
   padding: 16px 20px;
   background-color: #107fb3;
   color: #fff;
   position: relative;
 }
-.middle .menu .btn:before {
+.menu .btn:before {
   content: "";
   position: absolute;
   width: 14px;
@@ -45,16 +45,16 @@ body {
   bottom: -7px;
   rotate: 45deg;
 }
-.middle .menu .btn i {
+.menu .btn i {
   margin-right: 10px;
 }
-.middle .menu .smenu {
+.menu .smenu {
   background-color: #333;
   overflow: hidden;
   transition: max-height 0.3s;
   max-height: 0;
 }
-.middle .menu .smenu a {
+.smenu a {
   display: block;
   padding: 16px 26px;
   color: #fff;
@@ -62,7 +62,7 @@ body {
   margin: 4px 0;
   position: relative;
 }
-.middle .menu .smenu a:before {
+.smenu a:before {
   content: "";
   position: absolute;
   width: 6px;
@@ -73,6 +73,6 @@ body {
   transition: 0.3 ease;
   opacity: 0;
 }
-.middle .menu .smenu a:hover:before {
+.smenu a:hover:before {
   opacity: 1;
 }
