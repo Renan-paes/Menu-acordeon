@@ -1,2 +1,2 @@
 # Menu-acordeon
-Esse é um trabalho desenvolvido apenas com CSS para testar minhas habilidades
+Esse é um trabalho foi desenvolvido para testar minhas habilidades com menus.
