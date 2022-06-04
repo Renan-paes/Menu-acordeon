@@ -5,10 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criando Menu</title>
-    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style.css/main.css">
+    <script src="https://kit.fontawesome.com/25a8b73cd3.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-    <h1>Hello world</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint quidem consectetur repellat molestiae modi provident placeat dignissimos in error, veniam tempore ab porro, repellendus corrupti magni? Totam error id amet.</p>
+  <div class="middle">
+      <div class="menu">
+          <li class="item" id="profile">
+              <a href="#profile" class="btn"><i class="fa-solid fa-user"></i>Perfil</a>
+              <div class="smenu">
+                  <a href="#">Postagens</a>
+                  <a href="#">Fotos</a>
+              </div>
+          </li>
+          <li class="item" id="messages">
+              <a href="#messages" class="btn"><i class="fa-solid fa-envelope"></i>Mensagens</a>
+              <div class="smenu">
+                  <a href="#">Novo</a>
+                  <a href="#">Enviados</a>
+                  <a href="#">Span</a>
+              </div>
+          </li>
+          <li class="item" id="settings">
+              <a href="#settings" class="btn"><i class="fa-solid fa-gear"></i>Configurações</a>
+              <div class="smenu">
+                  <a href="#">Senha</a>
+                  <a href="#">Linguagem</a>
+              </div>
+          </li>
+          <li class="item">
+              <a href="#" class="btn"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+          </li>
+      </div>
+  </div>
 </body>
 </html>
